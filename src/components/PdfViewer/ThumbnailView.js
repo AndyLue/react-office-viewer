@@ -163,7 +163,6 @@ export default forwardRef((props, ref) => {
     const resetThumbnail = () => {
         selectedPageRef.current = null;
         viewportRef.current = null;
-        sidebarRef.current.innerHTML = "";
     }
     return (
         <div className={styles["sidebarContent"]} style={{ height: document.body.offsetHeight - 62 + 'px' }}>
